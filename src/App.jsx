@@ -12,5 +12,7 @@ function App() {
       < DefaultHOC path="/" exact component={Temp} />
     </>
   );
+
+  
 }
 export default App;
