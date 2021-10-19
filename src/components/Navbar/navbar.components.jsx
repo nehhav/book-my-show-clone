@@ -1,5 +1,11 @@
 import React from "react";
-import { BiChevronRight, BiSearch, BiMenu, BiChevronDown } from "react-icons/bi";
+import {
+    BiChevronRight,
+    BiSearch,
+    BiMenu,
+    BiChevronDown
+}
+    from "react-icons/bi";
 
 const NavSm = () => {
     return (
@@ -21,7 +27,7 @@ const NavSm = () => {
 };
 const NavMd = () => {
     return (
-        <div className="w-full flex items-center gap-3 bg-white px-3 py-y2 rounded-md">
+        <div className="w-full flex items-center gap-3 bg-white px-3 py-2 rounded-md">
             <BiSearch />
             <input type="search"
                 className="w-full bg-transparent border-none focus:outline-none"
@@ -40,7 +46,7 @@ const NavLg = () => {
 
                     />
                 </div>
-                <div className="w-full flex items-center gap-3 bg-white px-3 py-y2 rounded-md">
+                <div className="w-full flex items-center gap-3 bg-white px-3 py-2 rounded-md">
                     <BiSearch />
                     <input type="search"
                         className="w-full bg-transparent border-none focus:outline-none"
