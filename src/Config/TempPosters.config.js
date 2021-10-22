@@ -30,7 +30,7 @@ const PremierImages = [
         subtitle: "english",
     },
     {
-        src: "https://wallpaperaccess.com/full/4851154.jpgg",
+        src: "https://wallpaperaccess.com/full/4851154.jpg",
         alt: "zack",
         title: "Zacl",
         subtitle: "english",
@@ -42,7 +42,7 @@ const PremierImages = [
         subtitle: "english",
     },
     {
-        src: "https://wallpaperaccess.com/full/4851154.jpgg",
+        src: "https://wallpaperaccess.com/full/4851154.jpg",
         alt: "zack",
         title: "Zacl",
         subtitle: "english",
