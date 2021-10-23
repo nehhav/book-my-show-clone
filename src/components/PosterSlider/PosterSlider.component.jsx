@@ -4,7 +4,8 @@ import Slider from "react-slick";
 import Poster from "../Poster/poster.component";
 
 // Configs
-import PosterCarouselSettings from "../../config/PosterCarousel.config";
+//import config here for the carousal of poster settings
+import PosterCarouselSettings from "../../Config/PosterCarousel.config";
 
 const PosterSlider = (props) => {
   const sliderConfig = props.config ? props.config : PosterCarouselSettings;
