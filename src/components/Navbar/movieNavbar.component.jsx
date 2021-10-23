@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import {
+    // eslint-disable-next-line no-unused-vars
     BiChevronRight,
     BiSearch,
     BiMenu,
