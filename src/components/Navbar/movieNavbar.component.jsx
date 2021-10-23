@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import {
     BiChevronRight,
     BiSearch,
@@ -8,14 +8,18 @@ import {
 }
     from "react-icons/bi";
 
+//Context
+import { MovieContext } from "../../context/movie.context";
+
 //Mobile Screen
 const NavSm = () => {
+    const { movie } = useContext(MovieContext);
     return (
         <>
             <div className="text-white flex items-center justify-between">
                 <div>
-                    <h3 className="text-xl font-bold ">
-                        It All starts Here!
+                    <h3 className="text-xl font-bold ">{movie.original_title}
+
                     </h3>
 
                 </div>

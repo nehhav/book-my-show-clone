@@ -6,7 +6,7 @@ import MovieHOC from "./HOC/Movie.HOC";
 
 // Pages
 import HomePage from "./pages/Home.page";
-import Movie from "./pages/Movie.page";
+import Movie from "./pages/Movie.page"
 import Plays from "./pages/Plays.page";
 
 // Import css files

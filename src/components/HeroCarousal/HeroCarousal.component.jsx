@@ -9,18 +9,18 @@ const HeroCarousal = () => {
 
     const [images, setImages] = useState([]);
 
-    useEffect(()=>{
-    const requestNowPlayingMovies = async () => {
-      const getImages = await axios.get("/movie/now_playing");
-      setImages(getImages.data.results);
-    };
+    useEffect(() => {
+        const requestNowPlayingMovies = async () => {
+            const getImages = await axios.get("/movie/now_playing");
+            setImages(getImages.data.results);
+        };
 
-    requestNowPlayingMovies();
+        requestNowPlayingMovies();
 
-    },[]);
+    }, []);
 
 
-    
+
     const settingsLG = {
         arrows: true,
         autoplay: true,
@@ -45,7 +45,7 @@ const HeroCarousal = () => {
         prevArrow: <PrevArrow />,
     };
 
-   return (
+    return (
         <>
 
             <div className="lg:hidden">

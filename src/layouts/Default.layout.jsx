@@ -3,7 +3,7 @@ import React from "react";
 
 //Components
 import Navbar from "../components/Navbar/navbar.components";
-import HeroCarousal from "../components/HeroCarousel/HeroCarousal.component";
+import HeroCarousal from "../components/HeroCarousal/HeroCarousal.component";
 
 const DefaultLayout = (props) => {
     return (
